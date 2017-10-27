@@ -32,13 +32,13 @@ export default [
         id: '4',
         person: 'John Wooden',
         text: 'Ability may get you to the top, but it takes character to keep you there.',
-        imgURL2: '../../assets/imgs/AdobeStock_127475332.jpeg',
+        imgURL2: '../../assets/imgs/AdobeStock_81356046.jpeg',
       },
       {
         id: '5',
         person: 'Robert Frost',
         text: 'Education is the ability to listen to almost anything without losing your temper.',
-        imgURL2: '../../assets/imgs/AdobeStock_127475332.jpeg',
+        imgURL2: '../../assets/imgs/AdobeStock_76912771.jpeg',
       }
     ],
     icon: 'bicycle'
@@ -51,13 +51,13 @@ export default [
         id: '6',
         person: 'Benjamin Disraeli',
         text: 'Every product of genius must be the product of enthusiasm.',
-        imgURL2: '../../assets/imgs/AdobeStock_127475332.jpeg',
+        imgURL2: '../../assets/imgs/AdobeStock_86590753.jpeg',
       },
       {
         id: '7',
         person: 'Norman Vincent Peale',
         text: 'Enthusiasm releases the drive to carry you over obstacles and adds significance to all you do.',
-        imgURL2: '../../assets/imgs/AdobeStock_127475332.jpeg',
+        imgURL2: '../../assets/imgs/AdobeStock_87171147.jpeg',
       }
     ],
     icon: 'battery-charging'
@@ -70,13 +70,13 @@ export default [
         id: '8',
         person: 'Jim Rohn',
         text: 'Either you run the day or the day runs you.',
-        imgURL2: '../../assets/imgs/AdobeStock_127475332.jpeg',
+        imgURL2: '../../assets/imgs/AdobeStock_60461063.jpeg',
       },
       {
         id: '9',
         person: 'Donna Brazile',
         text: 'I was motivated to be different in part because I was different.',
-        imgURL2: '../../assets/imgs/AdobeStock_127475332.jpeg',
+        imgURL2: '../../assets/imgs/AdobeStock_131821416.jpeg',
       }
     ],
     icon: 'body'
