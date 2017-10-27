@@ -1,3 +1,30 @@
 page-home {
+  background-color: rgb(235,235,237);
 
+  ion-card {
+    position: relative;
+    float: left;
+    text-align: center;
+  }
+
+  ion-slides {
+    height: 25%;
+
+    ion-slide{
+      max-width: 50%;
+    }
+  }
+
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 1.5em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .swiper-slide{
+    height: 30%;
+  }
 }
