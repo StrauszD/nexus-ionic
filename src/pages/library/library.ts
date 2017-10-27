@@ -18,7 +18,7 @@ import {QuotesPage} from "../quotes/quotes";
 })
 export class LibraryPage implements OnInit{
 
-  data: {category: string, data: Data[], icon: string}[];
+  data: {category: string, imgURL: string, data: Data[], icon: string}[];
   quotesPage: any;
 
   ngOnInit() {

@@ -7,15 +7,15 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Library</ion-title>
+    <ion-title>Categories</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding class="library">
+<ion-content class="library">
     <ion-card ion-item *ngFor="let data of data" [navPush]="quotesPage" [navParams]="data" >
-      <img src="../../assets/imgs/AdobeStock_854987.jpeg">
+      <img src="{{data.imgURL}}">
       <div class="card-title">{{data.category | uppercase }}</div>
       <div class="subtitle">{{data.data.length}} Listings</div>
     </ion-card>
