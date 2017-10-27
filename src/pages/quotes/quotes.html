@@ -15,13 +15,20 @@
 
 <ion-content padding>
   <ion-card *ngFor="let data of data.data">
-    <ion-card-title>{{data.person}}</ion-card-title>
+    <img src="{{data.imgURL2}}">
     <ion-card-content>
+      <ion-card-title>{{data.person}}</ion-card-title>
       <p>{{data.text}}</p>
     </ion-card-content>
     <ion-row>
+      <ion-col>
+        <button ion-button clear small (click)="onAddToFavorite(data)"><ion-icon name="star" ></ion-icon>    Favorite</button>
+      </ion-col>
+      <ion-col text-center="">
+        <button ion-button clear small (click)="onAddToFavorite(data)"><ion-icon name="pricetags" ></ion-icon>    Hire</button>
+      </ion-col>
       <ion-col text-right>
-        <button ion-button clear small (click)="onAddToFavorite(data)"><ion-icon name="star" color="yellow"></ion-icon> Favorite</button>
+        <button ion-button clear small (click)="onAddToFavorite(data)"><ion-icon name="ios-share-outline" ></ion-icon>    Share</button>
       </ion-col>
     </ion-row>
   </ion-card>
